@@ -1,0 +1,31 @@
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Logs
+*.log
+infrastructure/data/logs/
+
+# Local dev database (do not version control)
+infrastructure/data/cpa_assistant.db
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Test/coverage caches
+.pytest_cache/
+.coverage
+
+# Build artifacts
+dist/
+build/

@@ -1,0 +1,16 @@
+# Node/Vite project ignores
+node_modules/
+dist/
+.vite/
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
